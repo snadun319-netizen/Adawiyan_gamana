@@ -168,8 +168,8 @@ a {
   align-items: center;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("/project/frontend/assets/images/forests/maxim-hopman-rtsOc4q65B4-unsplash.jpg")
-      center/cover no-repeat;
+    url("../images/forests/maxim-hopman-rtsOc4q65B4-unsplash.jpg") center/cover
+      no-repeat;
   margin-top: 0;
 }
 
