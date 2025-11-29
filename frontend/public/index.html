@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adawiyan Gamana</title>
+    <link rel="stylesheet" href="/project/frontend/assets/css/style.css" />
+    <link rel="stylesheet" href="/project/frontend/assets/css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="nav-wrapper">
+          <div class="logo">
+            <img src="/project/frontend/assets/images/icons/Adawiyan gamana.jpg" alt="Adawiyan Gamana logo" />
+            <span>Adawiyan Gamana</span>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="waterfalls.html">Waterfalls</a></li>
+            <li><a href="forests.html">Forests</a></li>
+            <li><a href="mountains.html">Mountains</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Plan Trip</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1 class="hero-title">Discover Sri Lanka's Natural Wonders</h1>
+          <p class="hero-subtitle">
+            Explore breathtaking waterfalls, pristine rainforests, and the
+            incredible biodiversity of the Pearl of the Indian Ocean
+          </p>
+          <div class="hero-buttons">
+            <a href="waterfalls.html" class="btn btn-primary">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+              </svg>
+              Explore Waterfalls
+            </a>
+            <a href="forests.html" class="btn btn-success">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2z" />
+              </svg>
+              Discover Forests
+            </a>
+            <a href="mountains.html" class="btn btn-mountain">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M3 20h18L12 4z" />
+              </svg>
+              Explore Mountains
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section class="about-section">
+        <div class="container">
+          <h2 class="section-title">The Natural Beauty of Sri Lanka</h2>
+          <p class="section-description">
+            Sri Lanka, known as the "Pearl of the Indian Ocean," is home to some
+            of the world's most spectacular waterfalls and biodiverse
+            rainforests. From the misty peaks of the central highlands to the
+            lush lowland jungles, discover a paradise of natural wonders waiting
+            to be explored.
+          </p>
+
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon blue">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+                </svg>
+              </div>
+              <h3>Majestic Waterfalls</h3>
+              <p>
+                Experience the raw power and beauty of Sri Lanka's waterfalls,
+                from the tallest at Bambarakanda to the enchanting Dunhinda
+                Falls.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon green">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2z" />
+                </svg>
+              </div>
+              <h3>Pristine Rainforests</h3>
+              <p>
+                Trek through UNESCO World Heritage Sites like Sinharaja, home to
+                countless endemic species found nowhere else on earth.
+              </p>
+            </div>
+
+            <div class="feature-card">
+              <div class="feature-icon purple">
+                <svg
+                  width="40"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <rect x="3" y="3" width="18" height="18" rx="2" />
+                  <circle cx="8.5" cy="8.5" r="1.5" />
+                  <path d="M21 15l-5-5L5 21" />
+                </svg>
+              </div>
+              <h3>Unforgettable Adventures</h3>
+              <p>
+                Create lasting memories with hiking, wildlife watching, and
+                nature photography in some of Asia's most beautiful landscapes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Waterfalls -->
+      <section class="featured-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Featured Waterfalls</h2>
+            <a href="waterfalls.html" class="view-all">
+              View All
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="cards-grid">
+            <div class="destination-card">
+              <div class="card-image">
+                <img
+                  src="/project/frontend/assets/images/waterfalls/6e7c6a64df3d534047c0314985cefcb4.jpg"
+                  alt="Bambarakanda Falls"
+                />
+                <span class="card-badge">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+                  </svg>
+                  Waterfall
+                </span>
+              </div>
+              <div class="card-content">
+                <h3>Bambarakanda Falls</h3>
+                <p class="location">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Badulla District, Uva Province
+                </p>
+                <p class="card-description">
+                  The tallest waterfall in Sri Lanka, cascading from a height of
+                  263 meters through lush greenery.
+                </p>
+                <a href="waterfalls/bambarakanda.html" class="btn-link">
+                  View Details
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="destination-card">
+              <div class="card-image">
+                <img
+                  src="/project/frontend/assets/images/waterfalls/dunhida.jpg"
+                  alt="Dunhinda Falls"
+                />
+                <span class="card-badge">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+                  </svg>
+                  Waterfall
+                </span>
+              </div>
+              <div class="card-content">
+                <h3>Dunhinda Falls</h3>
+                <p class="location">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Badulla District, Uva Province
+                </p>
+                <p class="card-description">
+                  A stunning 64-meter waterfall creating a misty spray that
+                  resembles smoke, located near Badulla.
+                </p>
+                <a href="waterfalls/dunhinda.html" class="btn-link">
+                  View Details
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="destination-card">
+              <div class="card-image">
+                <img
+                  src="/project/frontend/assets/images/waterfalls/Baker's fall.jpeg"
+                  alt="Baker's Falls"
+                />
+                <span class="card-badge">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z" />
+                  </svg>
+                  Waterfall
+                </span>
+              </div>
+              <div class="card-content">
+                <h3>Baker's Falls</h3>
+                <p class="location">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Horton Plains National Park, Nuwara Eliya District
+                </p>
+                <p class="card-description">
+                  A picturesque 20-meter waterfall within Horton Plains National
+                  Park, named after explorer Samuel Baker.
+                </p>
+                <a href="waterfalls/bakers_fall.html" class="btn-link">
+                  View Details
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Forests -->
+      <section class="featured-section bg-light">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Featured Forests</h2>
+            <a href="forests.html" class="view-all">
+              View All
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="cards-grid">
+            <div class="destination-card">
+              <div class="card-image">
+                <img
+                  src="/project/frontend/assets/images/forests/sinharaja.jpg"
+                  alt="Sinharaja Forest Reserve"
+                />
+                <span class="card-badge forest-badge">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2z" />
+                  </svg>
+                  Forest
+                </span>
+              </div>
+              <div class="card-content">
+                <h3>Sinharaja Forest Reserve</h3>
+                <p class="location">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Sabaragamuwa and Southern Provinces
+                </p>
+                <p class="card-description">
+                  A UNESCO World Heritage Site and the last viable area of
+                  primary tropical rainforest in Sri Lanka.
+                </p>
+                <a href="forests/sinharaja.html" class="btn-link">
+                  View Details
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="destination-card">
+              <div class="card-image">
+                <img
+                  src="/project/frontend/assets/images/forests/Knuckles Mountain Range.jpeg"
+                  alt="Knuckles Mountain Range"
+                />
+                <span class="card-badge forest-badge">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2z" />
+                  </svg>
+                  Forest
+                </span>
+              </div>
+              <div class="card-content">
+                <h3>Knuckles Mountain Range</h3>
+                <p class="location">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Kandy and Matale Districts, Central Province
+                </p>
+                <p class="card-description">
+                  A UNESCO World Heritage Site featuring misty peaks, cloud
+                  forests, and diverse ecosystems.
+                </p>
+                <a href="forests/knuckles.html" class="btn-link">
+                  View Details
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="destination-card">
+              <div class="card-image">
+                <img
+                  src="/project/frontend/assets/images/forests/Kanneliya Forest Reserve.jpg"
+                  alt="Kanneliya Forest Reserve"
+                />
+                <span class="card-badge forest-badge">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M12 2L2 12h3v8h6v-6h2v6h6v-8h3L12 2z" />
+                  </svg>
+                  Forest
+                </span>
+              </div>
+              <div class="card-content">
+                <h3>Kanneliya Forest Reserve</h3>
+                <p class="location">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Galle District, Southern Province
+                </p>
+                <p class="card-description">
+                  A pristine lowland rainforest in southern Sri Lanka, part of a
+                  UNESCO Biosphere Reserve.
+                </p>
+                <a href="forests/kanneliya.html" class="btn-link">
+                  View Details
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Mountains -->
+      <section class="featured-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Featured Mountains</h2>
+            <a href="mountains.html" class="view-all">
+              View All
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
+
+          <div class="cards-grid">
+            <div class="destination-card">
+              <div class="card-image">
+                <img
+                  src="/project/frontend/assets/images/mountains/05444682c78bb8f5870e317efab79d29.jpg"
+                  alt="Pidurangala Rock"
+                />
+                <span class="card-badge mountain-badge">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M3 20h18L12 4z" />
+                  </svg>
+                  Mountain
+                </span>
+              </div>
+              <div class="card-content">
+                <h3>Pidurangala Rock</h3>
+                <p class="location">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Matale District, Central Province
+                </p>
+                <p class="card-description">
+                  An ancient rock formation offering stunning sunrise views and
+                  a less crowded alternative to Sigiriya.
+                </p>
+                <a href="mountains/pidurangala.html" class="btn-link">
+                  View Details
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="destination-card">
+              <div class="card-image">
+                <img
+                  src="/project/frontend/assets/images/mountains/Ella Rock Hiking 101_ Tips & Must-See Views.jpeg"
+                  alt="Ella Rock"
+                />
+                <span class="card-badge mountain-badge">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M3 20h18L12 4z" />
+                  </svg>
+                  Mountain
+                </span>
+              </div>
+              <div class="card-content">
+                <h3>Ella Rock</h3>
+                <p class="location">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Ella, Badulla District
+                </p>
+                <p class="card-description">
+                  A challenging hike through tea plantations and forests leading
+                  to panoramic mountain views.
+                </p>
+                <a href="mountains/ella_rock.html" class="btn-link">
+                  View Details
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="destination-card">
+              <div class="card-image">
+                <img
+                  src="/project/frontend/assets/images/mountains/Sri Pada.jpg"
+                  alt="Sri Pada (Adam's Peak)"
+                />
+                <span class="card-badge mountain-badge">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path d="M3 20h18L12 4z" />
+                  </svg>
+                  Mountain
+                </span>
+              </div>
+              <div class="card-content">
+                <h3>Sri Pada (Adam's Peak)</h3>
+                <p class="location">
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Ratnapura District, Sabaragamuwa Province
+                </p>
+                <p class="card-description">
+                  A sacred pilgrimage mountain with 5,500 steps, revered by
+                  multiple religions for the sacred footprint at the summit.
+                </p>
+                <a href="mountains/kirigalpoththa.html" class="btn-link">
+                  View Details
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA Section -->
+      <section class="cta-section">
+        <div class="cta-content">
+          <h2>Plan Your Adventure Today</h2>
+          <p>
+            Browse our comprehensive guide to Sri Lanka's waterfalls, mountains and
+            forests, complete with detailed information, maps, and travel tips.
+          </p>
+          <div class="cta-buttons">
+            <a href="gallery.html" class="btn btn-light">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <rect x="3" y="3" width="18" height="18" rx="2" />
+                <circle cx="8.5" cy="8.5" r="1.5" />
+                <path d="M21 15l-5-5L5 21" />
+              </svg>
+              View Gallery
+            </a>
+            <a href="contact.html" class="btn btn-outline">
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              Get Travel Info
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-column">
+              <div class="footer-logo">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 32 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 4C13 4 10 6 10 9C10 12 13 14 16 14C19 14 22 12 22 9C22 6 19 4 16 4Z"
+                    fill="#22c55e"
+                  />
+                  <path
+                    d="M8 12C6 12 4 13.5 4 16C4 18.5 6 20 8 20C10 20 12 18.5 12 16C12 13.5 10 12 8 12Z"
+                    fill="#22c55e"
+                  />
+                  <path
+                    d="M24 12C22 12 20 13.5 20 16C20 18.5 22 20 24 20C26 20 28 18.5 28 16C28 13.5 26 12 24 12Z"
+                    fill="#22c55e"
+                  />
+                  <path
+                    d="M16 18C13 18 10 20 10 23C10 26 13 28 16 28C19 28 22 26 22 23C22 20 19 18 16 18Z"
+                    fill="#22c55e"
+                  />
+                </svg>
+                <span>Adawiyan Gamana</span>
+              </div>
+              <p class="footer-description">
+                Discover the breathtaking waterfalls and pristine forests of Sri
+                Lanka. Your guide to nature's wonders.
+              </p>
+            </div>
+
+            <div class="footer-column">
+              <h4>Quick Links</h4>
+              <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="waterfalls.html">Waterfalls</a></li>
+                <li><a href="forests.html">Forests</a></li>
+                <li><a href="mountains.html">Mountains</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4>Resources</h4>
+              <ul class="footer-links">
+                <li><a href="#">Blog & Guides</a></li>
+                <li><a href="#">Plan Your Trip</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-column">
+              <h4>Connect With Us</h4>
+              <div class="social-links">
+                <a href="#" aria-label="Facebook">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" aria-label="Instagram">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" aria-label="Twitter">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
+                    <path
+                      d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" aria-label="Email">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                </a>
+              </div>
+              <p class="contact-info">Email: info@srilankanature.com</p>
+              <div class="login-buttons">
+                <a
+                  href="login/traveler-login.html"
+                  class="btn btn-primary btn-sm"
+                  >Traveler Login</a
+                >
+                <a href="login/guide-login.html" class="btn btn-success btn-sm"
+                  >Guide Login</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2025 Adawiyan Gamana. All rights reserved.</p>
+            <p>
+              Explore responsibly. Protect and preserve our natural heritage.
+            </p>
+          </div>
+        </div>
+      </footer>
+
+      <script src="/project/frontend/assets/js/main.js"></script>
+    </main>
+  </body>
+</html>
