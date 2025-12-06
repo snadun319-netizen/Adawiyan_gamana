@@ -701,17 +701,13 @@ a {
 /* Page Hero */
 .page-hero {
     position: relative;
-    min-height: 400px;
+    min-height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('../images/waterfalls/hero.jpg') center/cover no-repeat;
-    margin-top: 70px;
-}
-
-.waterfalls-hero {
-    background: linear-gradient(135deg, #2563eb 0%, #16a34a 100%);
+                url('../images/waterfalls/hero.waterfall.webp') center/cover no-repeat;
+    margin-top: 0px;
 }
 
 .page-hero-overlay {
