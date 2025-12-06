@@ -335,7 +335,7 @@ a {
 /* Sections */
 .about-section,
 .featured-section {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 
 .bg-light {
@@ -534,7 +534,7 @@ a {
 /* CTA Section */
 .cta-section {
   background: linear-gradient(135deg, #31574b 0%, #778a80 100%);
-  padding: 5rem 0;
+  padding: 2rem 0;
   text-align: center;
   color: var(--white);
 }
@@ -729,7 +729,7 @@ a {
   text-align: center;
   color: var(--white);
   max-width: 800px;
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
 }
 
 .page-hero-title {
@@ -748,7 +748,7 @@ a {
 
 /* Map Section */
 .map-section {
-  padding: 5rem 0 3rem;
+  padding: 2rem 0;
   background-color: var(--gray-50);
 }
 
@@ -768,7 +768,7 @@ a {
 
 /* Waterfalls Listing */
 .waterfalls-listing {
-  padding: 5rem 0;
+  padding: 2rem 0;
 }
 
 .section-intro {
@@ -939,7 +939,7 @@ a {
 
 /* Tips Section */
 .tips-section {
-  padding: 5rem 0;
+  padding: 2rem 0;
   background-color: var(--gray-50);
 }
 
